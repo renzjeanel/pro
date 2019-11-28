@@ -1,0 +1,22 @@
+<% include nav_admin %>
+
+<nav class="navbar navbar-dark bg-secondary">
+  <h3>Add Music</h3>
+</nav>
+
+<div class="container">
+	<div class='row mt-5'>
+		<form method="POST" action="/musics/create">
+			<label >Title</label>
+			<input type="text" name="title" class="form-control" required>
+
+			<label >Artist</label>
+			<input type="text" name="artist" class="form-control" required>
+
+			<label >Genre</label>
+			<input type="text" name="genre" class="form-control" required>
+
+			<button class="btn btn-primary mt-3">ADD MUSIC</button>
+		</form>
+	</div>
+</div>

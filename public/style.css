@@ -1,0 +1,29 @@
+.card-body {
+	background: #304451;
+	color: white;
+}
+
+.card {
+	/*margin: 10px;*/
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+.content-card {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.content {
+	display: flex;
+	align-self: center;
+}
